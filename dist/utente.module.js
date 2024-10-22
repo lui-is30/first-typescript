@@ -12,3 +12,4 @@ const createUser = (username, password, status, permisisons, ordini) => {
     return User;
 };
 exports.createUser = createUser;
+//# sourceMappingURL=utente.module.js.map

@@ -25,3 +25,4 @@ let newUser1 = (0, utente_module_1.createUser)('jhonny', 'pw', 1, ['uno,due'], [
 let newUser2 = (0, utente_module_1.createUser)('Jerry', 'pw', 1, ['uno,due']);
 console.log(newUser1);
 console.log(newUser2);
+//# sourceMappingURL=main.js.map
