@@ -31,8 +31,8 @@ import { Ordini,createOrder } from "./ordine.module";
 
 
 
-let newOrder1:Ordini=createOrder(1,1,1,['cosa1,cosa2'],'jhonny');
-let newOrder2:Ordini=createOrder(2,1,1,['cosa1,cosa2'],'jhonny');
+let newOrder1:Ordini=createOrder(1,1,1,['cosa1,cosa2']);
+let newOrder2:Ordini=createOrder(2,1,1,['cosa1,cosa2']);
 
 let newUser1:User=createUser('jhonny','pw',1,['uno,due'],[newOrder1,newOrder2]);
 let newUser2:User=createUser('Jerry','pw',1,['uno,due']);
